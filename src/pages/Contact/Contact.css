@@ -1,0 +1,186 @@
+/* Base Styles */
+.contact-page {
+  padding: 40px 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-title {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #1a1a2e;
+  font-size: 2.5rem;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+}
+
+/* Shared Box Styles */
+.contact-box {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.box-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.box-icon {
+  font-size: 1.8rem;
+  color: #0984e3;
+}
+
+.box-header h2 {
+  margin: 0;
+  color: #1a1a2e;
+  font-size: 1.8rem;
+}
+
+/* Schedule a Call Box */
+.schedule-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.contact-method {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.method-icon {
+  font-size: 1.5rem;
+  color: #0984e3;
+  min-width: 30px;
+}
+
+.contact-method h3 {
+  margin: 0 0 5px 0;
+  color: #1a1a2e;
+  font-size: 1.2rem;
+}
+
+.contact-method p {
+  margin: 0;
+  color: #4a5568;
+}
+
+.schedule-button {
+  display: inline-block;
+  background: #0984e3;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 500;
+  margin-top: auto;
+  transition: background 0.3s ease;
+}
+
+.schedule-button:hover {
+  background: #0984e3;
+}
+
+/* Write to Me Box */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #1a1a2e;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #0984e3;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  background: #1a1a2e;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.3s ease;
+}
+
+.submit-button:hover {
+  background: #0984e3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact-title {
+    font-size: 2rem;
+  }
+}
+
+/* Dark Mode Support */
+[data-theme="dark"] .contact-box {
+  background: #1a1a2e;
+}
+
+[data-theme="dark"] .box-header h2,
+[data-theme="dark"] .contact-method h3,
+[data-theme="dark"] .form-group label {
+  color: #f8f9fa;
+}
+
+[data-theme="dark"] .contact-method p {
+  color: #cbd5e0;
+}
+
+[data-theme="dark"] .form-group input,
+[data-theme="dark"] .form-group textarea {
+  background: #2d3748;
+  border-color: #4a5568;
+  color: #f8f9fa;
+}

@@ -1,0 +1,187 @@
+/* PortfolioHome.css */
+
+.portfolio-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  width: 100%;
+}
+
+.text-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.image-content {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profile-image {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #2d3436;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #2d3436;
+}
+
+.highlight {
+  color: #0984e3;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #636e72;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.about-me p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #2d3436;
+  margin-bottom: 1.5rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.view-resume {
+  background-color: #0984e3;
+  color: white;
+}
+
+.view-resume:hover {
+  background-color: #0767b3;
+}
+
+.download-resume {
+  background-color: transparent;
+  color: #0984e3;
+  border: 2px solid #0984e3;
+}
+
+.download-resume:hover {
+  background-color: #0984e3;
+  color: white;
+}
+.about-me {
+  min-height: 120px; /* Adjust based on your text height */
+}
+
+.cursor {
+  animation: blink 1s infinite;
+  color: #0984e3;
+  font-weight: bold;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  
+  .image-content {
+    margin-bottom: 2rem;
+    justify-content: center;
+  }
+  
+  .button-group {
+    justify-content: center;
+  }
+  
+  .profile-image {
+    width: 250px;
+    height: 250px;
+  }
+}
+/* Water Bubble Styles */
+.water-bubble {
+  position: fixed;
+  bottom: -50px;
+  background: rgba(173, 216, 230, 0.25); /* Light blue with transparency */
+  border-radius: 50%;
+  pointer-events: none;
+  animation: bubble-float linear forwards;
+  z-index: 0;
+  backdrop-filter: blur(1px);
+  border: 1px solid rgba(200, 230, 255, 0.4); /* Light blue border */
+  box-shadow: 
+    0 0 10px rgba(173, 216, 230, 0.3),
+    0 0 20px rgba(173, 216, 230, 0.2) inset;
+}
+
+@keyframes bubble-float {
+  0% {
+    transform: translateY(0) scale(0.8);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translateY(-50vh) scale(1.1);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateY(-100vh) scale(0.9);
+    opacity: 0;
+  }
+}
+
+/* Make sure content stays above bubbles */
+.content-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.home-hero-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 50%;
+  filter: blur(0.5px);
+  mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 100%);
+  -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 100%);
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: cover;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.home-hero-image:hover {
+  transform: scale(1.02);
+  filter: blur(0.3px) brightness(1.05);
+}
