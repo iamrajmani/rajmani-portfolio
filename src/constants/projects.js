@@ -1,6 +1,15 @@
 export const projects = [
     {
-      id: 1,
+    id: 1,
+    title: "Certificate Generator",
+    description: "User can fill details Like Name , choose Courses and Date to get certificate.All certificates will have an Unique ID ",
+    tags: ["HTML","CSS","Javascript","React"],
+    githubLink: "https://github.com/iamrajmani/certificate-generator",
+    liveLink: "https://certificate-generator2.netlify.app/",
+    image: "/images/certificate-generator.jpg"
+  },
+    {
+      id: 2,
       title: "Countdown Timer",
       description: "Countdown Timer with Start ,Stop, Reset, Progress Bar and Dark Mode Features ",
       tags: ["HTML","CSS","Javascript","React"],
@@ -9,7 +18,7 @@ export const projects = [
       image: "/images/countdowntimer.jpg"
     },
     {
-      id: 2,
+      id: 3,
       title: "Star Rating with Review System",
       description: "User can Rate by clicking on starts and write detailed review and submit .Everytime user submit reviews, it gets stacked . ",
       tags: ["HTML","CSS","Javascript","React"],
@@ -18,7 +27,7 @@ export const projects = [
       image: "/images/starrating.jpg"
     },
     {
-      id: 3,
+      id: 4,
       title: "Virtual Credit card",
       description: "Custom Input field Card Number , Name , Expiry ,CVV ",
       tags: ["HTML","CSS","Javascript","React"],
@@ -27,7 +36,7 @@ export const projects = [
       image: "/images/credit_card.jpg"
     },
     {
-      id: 4,
+      id: 5,
       title: "Traffic Light",
       description: "Traffic Light which automatically changes Light in 3 sec gap ",
       tags: ["HTML","CSS","Javascript","React"],
@@ -36,7 +45,7 @@ export const projects = [
       image: "/images/traffic-light.jpg"
     },
     {
-      id: 5,
+      id: 6,
       title: "Sign Up & Login Form",
       description: "Sign Up & Login Form when clicked on signup login button disabled and vice-versa",
       tags: ["HTML","CSS","Javascript"],
@@ -45,7 +54,7 @@ export const projects = [
       image: "/images/sign-up-form.jpg"
     },
     {
-      id: 6,
+      id: 7,
       title: "Drag and Drop Game",
       description: "Drag and drop game , where users can drag the item in their respective marked empty category boxes , if it matches then game completes.",
       tags: ["HTML","CSS","Javascript","Reactjs","DND Tool-kit"],
@@ -54,7 +63,7 @@ export const projects = [
       image: "/images/drag-and-drop-game.jpg"
     },
     {
-      id: 7,
+      id: 8,
       title: "Dropdown List Multi-Selector",
       description: "A Dropdown List UI, show options in the list and upon selection of a Item, show that item at the top and remove from the list. The selected Item, if removed will again be present inside the dropdown list.",
       tags: ["HTML","CSS","Javascript","Reactjs"],
@@ -63,7 +72,7 @@ export const projects = [
       image: "/images/dropdown-list-selector.png"
     },
     {
-      id: 8,
+      id: 9,
       title: "Progress Bar",
       description: "This is a progress bar, a button will be present which when clicked should start showing progress in the bar also percentage of the progress should be shown till its completed.",
       tags: ["HTML","CSS","Vanilla Javascript"],
@@ -72,7 +81,7 @@ export const projects = [
       image: "/images/progress-bar.jpg"
     },
     {
-      id: 9,
+      id: 10,
       title: "JSON Data Table viewer",
       description: "This is an UI, in which JSON data will be fetched from an API and then dynamically create an HTML table based on that data",
       tags: ["HTML","CSS","Vanilla Javascript"],
@@ -81,12 +90,21 @@ export const projects = [
       image: "/images/JSON Data Table Viewer.jpg"
     },
     {
-      id: 10,
+      id: 11,
       title: "Accordion FAQ Page",
       description: "In this accordion UI there will be multiple headers, and besides each of them there will be a button “show”. Upon clicking “show” for a particular header, a panel will be visible for that particular header just below it. Once panel is visible, “show” will be replaced by “Hide”, and upon clicking of that the “Panel” is hidden again.",
       tags: ["HTML","CSS","Vanilla Javascript"],
       githubLink: "https://github.com/iamrajmani/accordion-FAQ",
       liveLink: "https://accordion-faq-page1.netlify.app/",
       image: "/images/accordion_faq.jpg"
+    },
+    {
+      id: 12,
+      title: "Counter Application",
+      description: "In this Counter UI,user can Increment and decrement value and Reset button is there along with Dark & Light Mode.",
+      tags: ["HTML","CSS","Javascript","ReactJS"],
+      githubLink: "https://github.com/iamrajmani/counter",
+      liveLink: "https://counter4.netlify.app/",
+      image: "/images/counter.jpg"
     },
   ];
