@@ -35,8 +35,17 @@ export const projects = [
       liveLink: "https://creditca.netlify.app/",
       image: "/images/credit_card.jpg"
     },
-    {
+     {
       id: 5,
+      title: "Invoice Generator",
+      description: "User can generate custom invoices with custom invoice number , date ,clients and with their business logo and signature . ",
+      tags: ["HTML","CSS","Javascript","React"],
+      githubLink: "https://github.com/iamrajmani/invoice-generator",
+      liveLink: "https://invoice-generator-pearl-nine.vercel.app/",
+      image: "/images/invoice-generator.jpg"
+    },
+    {
+      id: 6,
       title: "Traffic Light",
       description: "Traffic Light which automatically changes Light in 3 sec gap ",
       tags: ["HTML","CSS","Javascript","React"],
@@ -45,7 +54,7 @@ export const projects = [
       image: "/images/traffic-light.jpg"
     },
     {
-      id: 6,
+      id: 7,
       title: "Sign Up & Login Form",
       description: "Sign Up & Login Form when clicked on signup login button disabled and vice-versa",
       tags: ["HTML","CSS","Javascript"],
@@ -54,7 +63,7 @@ export const projects = [
       image: "/images/sign-up-form.jpg"
     },
     {
-      id: 7,
+      id: 8,
       title: "Drag and Drop Game",
       description: "Drag and drop game , where users can drag the item in their respective marked empty category boxes , if it matches then game completes.",
       tags: ["HTML","CSS","Javascript","Reactjs","DND Tool-kit"],
@@ -63,7 +72,7 @@ export const projects = [
       image: "/images/drag-and-drop-game.jpg"
     },
     {
-      id: 8,
+      id: 9,
       title: "Dropdown List Multi-Selector",
       description: "A Dropdown List UI, show options in the list and upon selection of a Item, show that item at the top and remove from the list. The selected Item, if removed will again be present inside the dropdown list.",
       tags: ["HTML","CSS","Javascript","Reactjs"],
@@ -72,7 +81,7 @@ export const projects = [
       image: "/images/dropdown-list-selector.png"
     },
     {
-      id: 9,
+      id: 10,
       title: "Progress Bar",
       description: "This is a progress bar, a button will be present which when clicked should start showing progress in the bar also percentage of the progress should be shown till its completed.",
       tags: ["HTML","CSS","Vanilla Javascript"],
@@ -81,7 +90,7 @@ export const projects = [
       image: "/images/progress-bar.jpg"
     },
     {
-      id: 10,
+      id: 11,
       title: "JSON Data Table viewer",
       description: "This is an UI, in which JSON data will be fetched from an API and then dynamically create an HTML table based on that data",
       tags: ["HTML","CSS","Vanilla Javascript"],
@@ -90,7 +99,7 @@ export const projects = [
       image: "/images/JSON Data Table Viewer.jpg"
     },
     {
-      id: 11,
+      id: 12,
       title: "Accordion FAQ Page",
       description: "In this accordion UI there will be multiple headers, and besides each of them there will be a button “show”. Upon clicking “show” for a particular header, a panel will be visible for that particular header just below it. Once panel is visible, “show” will be replaced by “Hide”, and upon clicking of that the “Panel” is hidden again.",
       tags: ["HTML","CSS","Vanilla Javascript"],
@@ -99,7 +108,7 @@ export const projects = [
       image: "/images/accordion_faq.jpg"
     },
     {
-      id: 12,
+      id: 13,
       title: "Counter Application",
       description: "In this Counter UI,user can Increment and decrement value and Reset button is there along with Dark & Light Mode.",
       tags: ["HTML","CSS","Javascript","ReactJS"],
