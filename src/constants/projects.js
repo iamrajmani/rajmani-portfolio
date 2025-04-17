@@ -42,7 +42,7 @@ export const projects = [
       tags: ["HTML","CSS","Javascript","React"],
       githubLink: "https://github.com/iamrajmani/invoice-generator",
       liveLink: "https://invoice-generator-pearl-nine.vercel.app/",
-      image: "/images/invoice-generator.jpg"
+      image: "/images/invoice-generator.png"
     },
     {
       id: 6,
