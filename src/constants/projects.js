@@ -45,7 +45,7 @@ export const projects = [
       image: "/images/invoice-generator.png"
     },
     {
-      id: 5,
+      id: 6,
       title: "OTP Authorisation",
       description: "User can enter 6 digits OTP and verify , if OTP is correct then all the Boxes will turn green ,if it's wrong then red. ",
       tags: ["HTML","CSS","Javascript","React"],
