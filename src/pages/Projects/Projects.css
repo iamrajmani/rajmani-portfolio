@@ -318,6 +318,7 @@
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
+  margin bottom : 10px;
 }
 
 .pagination-button:hover {
