@@ -49,8 +49,8 @@ export const projects = [
       title: "OTP Authorisation",
       description: "User can enter 6 digits OTP and verify , if OTP is correct then all the Boxes will turn green ,if it's wrong then red. ",
       tags: ["HTML","CSS","Javascript","React"],
-      githubLink: "https://github.com/iamrajmani/invoice-generator",
-      liveLink: "https://invoice-generator-pearl-nine.vercel.app/",
+      githubLink: "https://github.com/iamrajmani/otp-autho",
+      liveLink: "https://otp-autho.netlify.app/",
       image: "/images/otp-autho.jpg"
     },
     {
