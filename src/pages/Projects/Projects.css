@@ -309,8 +309,9 @@
   width: 3.0rem;
   height: 3.0rem;
   border-radius: 100%;
+  border-width: 2px;
   border: grey;
-  background-color: #ffffff;
+  background-color: #D3D3D3;
   color: #000000;
   font-weight: bold;
   cursor: pointer;
