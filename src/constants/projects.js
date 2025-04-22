@@ -51,7 +51,7 @@ export const projects = [
       tags: ["HTML","CSS","Javascript","React"],
       githubLink: "https://github.com/iamrajmani/otp-autho",
       liveLink: "https://otp-autho.netlify.app/",
-      image: "/images/otp-autho.jpg"
+      image: "/images/otp_autho.jpg"
     },
     {
       id: 7,
