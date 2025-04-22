@@ -310,8 +310,8 @@
   height: 3.0rem;
   border-radius: 100%;
   border: grey;
-  background-color: #0984e3;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
   font-weight: bold;
   cursor: pointer;
   display: flex;
@@ -326,7 +326,7 @@
 }
 
 .pagination-button.active {
-  background-color: #646cff;
+  background-color: #0984e3;
   color: white;
 }
 
