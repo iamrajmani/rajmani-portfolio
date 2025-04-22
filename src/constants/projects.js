@@ -82,6 +82,15 @@ export const projects = [
     },
     {
       id: 10,
+      title: "Multistep Form",
+      description: "This is a Multistep Form,where user will fill the details on first page ,after filling on n1st page then only user can proceed to next page and so on till 3rd page and submit the page.",
+      tags: ["HTML","CSS","Javascript","Reactjs"],
+      githubLink: "https://github.com/iamrajmani/Multistep-form",
+      liveLink: "https://multistep-for.netlify.app/",
+      image: "/images/Multistep-form.jpg"
+    },
+    {
+      id: 11,
       title: "Progress Bar",
       description: "This is a progress bar, a button will be present which when clicked should start showing progress in the bar also percentage of the progress should be shown till its completed.",
       tags: ["HTML","CSS","Vanilla Javascript"],
@@ -90,7 +99,7 @@ export const projects = [
       image: "/images/progress-bar.jpg"
     },
     {
-      id: 11,
+      id: 12,
       title: "JSON Data Table viewer",
       description: "This is an UI, in which JSON data will be fetched from an API and then dynamically create an HTML table based on that data",
       tags: ["HTML","CSS","Vanilla Javascript"],
@@ -99,7 +108,7 @@ export const projects = [
       image: "/images/JSON Data Table Viewer.jpg"
     },
     {
-      id: 12,
+      id: 13,
       title: "Accordion FAQ Page",
       description: "In this accordion UI there will be multiple headers, and besides each of them there will be a button “show”. Upon clicking “show” for a particular header, a panel will be visible for that particular header just below it. Once panel is visible, “show” will be replaced by “Hide”, and upon clicking of that the “Panel” is hidden again.",
       tags: ["HTML","CSS","Vanilla Javascript"],
@@ -108,7 +117,7 @@ export const projects = [
       image: "/images/accordion_faq.jpg"
     },
     {
-      id: 13,
+      id: 14,
       title: "Counter Application",
       description: "In this Counter UI,user can Increment and decrement value and Reset button is there along with Dark & Light Mode.",
       tags: ["HTML","CSS","Javascript","ReactJS"],
