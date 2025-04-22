@@ -306,10 +306,10 @@
 }
 
 .pagination-button {
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 50%;
-  border: none;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 100%;
+  border: grey;
   background-color: #f0f0f0;
   color: #333;
   font-weight: bold;
