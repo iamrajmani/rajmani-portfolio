@@ -6,7 +6,7 @@ import './Projects.css';
 const Projects = () => {
   const [filter, setFilter] = useState('All');
   const [currentPage, setCurrentPage] = useState(1);
-  const projectsPerPage = 6;
+  const projectsPerPage = 9;
 
   const filteredProjects = filter === 'All' 
     ? projects 
