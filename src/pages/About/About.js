@@ -22,7 +22,7 @@ const About = () => {
             >
               <p>
                 Hi, I'm <span className="highlight">Rajmani</span>, a passionate Frontend developer - React with 
-                <span className="highlight"> 2.5 years</span> of experience building modern web applications.
+                <span className="highlight"> 3.2 years</span> of experience building modern web applications.
               </p>
               <p>
                 I specialize in creating responsive, performant UIs with HTML , CSS , Javascript , React, TypeScript, Material UI.
