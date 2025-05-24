@@ -2,9 +2,9 @@ export const projects = [
     {
     id: 1,
     title: "Asking for Date with Srcatch card",
-    description: "User can scratch a card and it gives random answer ,and one user can only sractch 1 time in 3o minutes with their IP Address. ",
+    description: "User can scratch a card and it gives random answer ,and one user can only sractch 1 time in 30 minutes with their IP Address. ",
     tags: ["HTML","CSS","Javascript","React","IP Tracking"],
-    githubLink: "https://github.com/iamrajmani/certificate-generator",
+    githubLink: "https://github.com/iamrajmani/Date-scratcher",
     liveLink: "https://asking-for-date-three.vercel.app/",
     image: "/images/asking_for_date.jpg"
   },
@@ -19,12 +19,12 @@ export const projects = [
   },
     {
     id: 3,
-    title: "Certificate Generator",
-    description: "User can fill details Like Name , choose Courses and Date to get certificate.All certificates will have an Unique ID ",
+    title: "Virtual Light on/off",
+    description: "User can Switch on lights one by one or their is master switch to on/off all light at once . ",
     tags: ["HTML","CSS","Javascript","React"],
     githubLink: "https://github.com/iamrajmani/certificate-generator",
     liveLink: "https://certificate-generator2.netlify.app/",
-    image: "/images/certificate-generator.jpg"
+    image: "/images/switch_light.jpg"
   },
     {
       id: 4,
