@@ -1,6 +1,15 @@
 export const projects = [
     {
     id: 1,
+    title: "Asking for Date with Srcatch card",
+    description: "User can scratch a card and it gives random answer ,and one user can only sractch 1 time in 3o minutes with their IP Address. ",
+    tags: ["HTML","CSS","Javascript","React","IP Tracking"],
+    githubLink: "https://github.com/iamrajmani/certificate-generator",
+    liveLink: "https://asking-for-date-three.vercel.app/",
+    image: "/images/asking_for_date.jpg"
+  },
+    {
+    id: 2,
     title: "Certificate Generator",
     description: "User can fill details Like Name , choose Courses and Date to get certificate.All certificates will have an Unique ID ",
     tags: ["HTML","CSS","Javascript","React"],
@@ -9,7 +18,16 @@ export const projects = [
     image: "/images/certificate-generator.jpg"
   },
     {
-      id: 2,
+    id: 3,
+    title: "Certificate Generator",
+    description: "User can fill details Like Name , choose Courses and Date to get certificate.All certificates will have an Unique ID ",
+    tags: ["HTML","CSS","Javascript","React"],
+    githubLink: "https://github.com/iamrajmani/certificate-generator",
+    liveLink: "https://certificate-generator2.netlify.app/",
+    image: "/images/certificate-generator.jpg"
+  },
+    {
+      id: 4,
       title: "Countdown Timer",
       description: "Countdown Timer with Start ,Stop, Reset, Progress Bar and Dark Mode Features ",
       tags: ["HTML","CSS","Javascript","React"],
@@ -18,7 +36,7 @@ export const projects = [
       image: "/images/countdowntimer.jpg"
     },
     {
-      id: 3,
+      id: 5,
       title: "Star Rating with Review System",
       description: "User can Rate by clicking on starts and write detailed review and submit .Everytime user submit reviews, it gets stacked . ",
       tags: ["HTML","CSS","Javascript","React"],
@@ -27,7 +45,7 @@ export const projects = [
       image: "/images/starrating.jpg"
     },
     {
-      id: 4,
+      id: 6,
       title: "Virtual Credit card",
       description: "Custom Input field Card Number , Name , Expiry ,CVV ",
       tags: ["HTML","CSS","Javascript","React"],
@@ -36,7 +54,7 @@ export const projects = [
       image: "/images/credit_card.jpg"
     },
      {
-      id: 5,
+      id: 7,
       title: "Invoice Generator",
       description: "User can generate custom invoices with custom invoice number , date ,clients and with their business logo and signature . ",
       tags: ["HTML","CSS","Javascript","React"],
@@ -45,7 +63,7 @@ export const projects = [
       image: "/images/invoice-generator.png"
     },
     {
-      id: 6,
+      id: 8,
       title: "OTP Authorisation",
       description: "User can enter 6 digits OTP and verify , if OTP is correct then all the Boxes will turn green ,if it's wrong then red. ",
       tags: ["HTML","CSS","Javascript","React"],
@@ -54,7 +72,7 @@ export const projects = [
       image: "/images/otp_autho.jpg"
     },
     {
-      id: 7,
+      id: 9,
       title: "Traffic Light",
       description: "Traffic Light which automatically changes Light in 3 sec gap ",
       tags: ["HTML","CSS","Javascript","React"],
@@ -63,7 +81,7 @@ export const projects = [
       image: "/images/traffic-light.jpg"
     },
     {
-      id: 8,
+      id: 10,
       title: "Sign Up & Login Form",
       description: "Sign Up & Login Form when clicked on signup login button disabled and vice-versa",
       tags: ["HTML","CSS","Javascript"],
@@ -72,7 +90,7 @@ export const projects = [
       image: "/images/sign-up-form.jpg"
     },
     {
-      id: 9,
+      id: 11,
       title: "Drag and Drop Game",
       description: "Drag and drop game , where users can drag the item in their respective marked empty category boxes , if it matches then game completes.",
       tags: ["HTML","CSS","Javascript","Reactjs","DND Tool-kit"],
@@ -81,7 +99,7 @@ export const projects = [
       image: "/images/drag-and-drop-game.jpg"
     },
     {
-      id: 10,
+      id: 12,
       title: "Dropdown List Multi-Selector",
       description: "A Dropdown List UI, show options in the list and upon selection of a Item, show that item at the top and remove from the list. The selected Item, if removed will again be present inside the dropdown list.",
       tags: ["HTML","CSS","Javascript","Reactjs"],
@@ -90,7 +108,7 @@ export const projects = [
       image: "/images/dropdown-list-selector.png"
     },
     {
-      id: 11,
+      id: 13,
       title: "Multistep Form",
       description: "This is a Multistep Form,where user will fill the details on first page ,after filling on n1st page then only user can proceed to next page and so on till 3rd page and submit the page.",
       tags: ["HTML","CSS","Javascript","Reactjs"],
@@ -99,7 +117,7 @@ export const projects = [
       image: "/images/Multistep-form.jpg"
     },
     {
-      id: 12,
+      id: 14,
       title: "Progress Bar",
       description: "This is a progress bar, a button will be present which when clicked should start showing progress in the bar also percentage of the progress should be shown till its completed.",
       tags: ["HTML","CSS","Vanilla Javascript"],
@@ -108,7 +126,7 @@ export const projects = [
       image: "/images/progress-bar.jpg"
     },
     {
-      id: 13,
+      id: 15,
       title: "JSON Data Table viewer",
       description: "This is an UI, in which JSON data will be fetched from an API and then dynamically create an HTML table based on that data",
       tags: ["HTML","CSS","Vanilla Javascript"],
@@ -117,7 +135,7 @@ export const projects = [
       image: "/images/JSON Data Table Viewer.jpg"
     },
     {
-      id: 14,
+      id: 16,
       title: "Accordion FAQ Page",
       description: "In this accordion UI there will be multiple headers, and besides each of them there will be a button “show”. Upon clicking “show” for a particular header, a panel will be visible for that particular header just below it. Once panel is visible, “show” will be replaced by “Hide”, and upon clicking of that the “Panel” is hidden again.",
       tags: ["HTML","CSS","Vanilla Javascript"],
@@ -126,7 +144,7 @@ export const projects = [
       image: "/images/accordion_faq.jpg"
     },
     {
-      id: 15,
+      id: 17,
       title: "Counter Application",
       description: "In this Counter UI,user can Increment and decrement value and Reset button is there along with Dark & Light Mode.",
       tags: ["HTML","CSS","Javascript","ReactJS"],
