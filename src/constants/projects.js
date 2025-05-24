@@ -22,8 +22,8 @@ export const projects = [
     title: "Virtual Light on/off",
     description: "User can Switch on lights one by one or their is master switch to on/off all light at once . ",
     tags: ["HTML","CSS","Javascript","React"],
-    githubLink: "https://github.com/iamrajmani/certificate-generator",
-    liveLink: "https://certificate-generator2.netlify.app/",
+    githubLink: "",
+    liveLink: "https://glowing-bulb-eight.vercel.app/",
     image: "/images/switch_light.jpg"
   },
     {
