@@ -8,8 +8,8 @@ const PortfolioHome = () => {
   const [bubbles, setBubbles] = useState([]);
 
   const aboutMeTexts = [
-    "I'm a passionate Frontend Developer with 3.2 years of experience specializing in ReactJS development. With expertise in creating user-friendly interfaces and integrating various technologies, I deliver high-quality web applications.",
-    "When I'm not coding, you can find me exploring new technologies and contributing to open-source projects. I believe in continuous learning and staying updated with the latest trends in web development."
+    "I'm a passionate Full stack Developer with 3.4 years of experience specializing in Java , Springboot,React.Js , SQL , Javascript/Typescript. With expertise in creating user-friendly UI & scalable APIs by integrating various technologies and Polygot Programming, I deliver high-quality web applications.",
+    "When I'm not coding, you can find me exploring new technologies (Currently Laerning : AWS , Python,LLM) and contributing to open-source projects. I believe in continuous learning and staying updated with the latest trends in web development."
   ];
 
   // Water bubble effect
