@@ -21,11 +21,11 @@ const About = () => {
               className="bio-text"
             >
               <p>
-                Hi, I'm <span className="highlight">Rajmani</span>, a passionate Frontend developer - React with 
-                <span className="highlight"> 3.2 years</span> of experience building modern web applications.
+                Hi, I'm <span className="highlight">Rajmani</span>, a passionate Full Stack developer - (Java & React) with 
+                <span className="highlight"> 3.4 years</span> of experience building modern UIs & Scalabale APIs.
               </p>
               <p>
-                I specialize in creating responsive, performant UIs with HTML , CSS , Javascript , React, TypeScript, Material UI.
+                I specialize in creating responsive, performant UIs with HTML , CSS , Javascript , React, TypeScript, Material UI , Backend with Java , Spring Boot , Microservices , Databases with SQL and JPA/Hibernate , Cloud with Azure , CI/CD with Jenkins and Kafka for Scalable Data pipelines. 
                 My background in both design and development allows me to bridge the gap between 
                 <span className="highlight"> beautiful asthetic visuals</span> and 
                 <span className="highlight"> clean code</span>.
