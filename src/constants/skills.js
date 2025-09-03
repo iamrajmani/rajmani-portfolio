@@ -4,7 +4,7 @@ import { SiTypescript, SiNextdotjs, SiRedux } from 'react-icons/si';
 const skills = [
   {
     name: 'HTML',
-    level: 80,
+    level: 100,
     icon: <FaReact />
   },
   {
@@ -14,37 +14,37 @@ const skills = [
   },
   {
     name: 'Javascript',
-    level: 70,
+    level: 80,
     icon: <FaReact />
   },
   {
-    name: 'React',
-    level: 70,
+    name: 'React.JS',
+    level: 80,
     icon: <FaReact />
   },
   {
     name: 'TypeScript',
-    level: 60,
+    level: 70,
     icon: <SiTypescript />
   },
   {
-    name: 'Next.js',
-    level: 50,
-    icon: <SiNextdotjs />
+    name: 'Java',
+    level: 70,
+    icon: <faJava />
   },
   {
-    name: 'Node.js',
-    level: 40,
-    icon: <FaNodeJs />
+    name: 'Spring Boot',
+    level: 65,
+    icon: <faJava/>
   },
   {
     name: 'Redux',
-    level: 50,
+    level: 60,
     icon: <SiRedux />
   },
   {
-    name: 'MongoDB',
-    level: 40,
+    name: 'SQL',
+    level: 80,
     icon: <FaDatabase />
   }
 ];
