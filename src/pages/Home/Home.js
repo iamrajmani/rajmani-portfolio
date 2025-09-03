@@ -63,14 +63,15 @@ const PortfolioHome = () => {
   };
 
   const handleDownloadResume = () => {
-    const resumeUrl = '/Rajmani.pdf';
-    const link = document.createElement('a');
-    link.href = resumeUrl;
-    link.download = 'Rajmani.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+  const resumeUrl = 'https://drive.google.com/uc?export=download&id=15SbdDpFX7LXa_2FqubFtjQNx1rlTEv7s';
+  const link = document.createElement('a');
+  link.href = resumeUrl;
+  link.download = 'Rajmani.pdf';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
+
 
   return (
     <div className="portfolio-container">
@@ -92,7 +93,7 @@ const PortfolioHome = () => {
       <div className="content-wrapper">
         <div className="text-content">
           <h1>Hi, I'm <span className="highlight">Rajmani</span></h1>
-          <h3>Frontend Developer</h3>
+          <h3>Full stack Developer</h3>
           
           <div className="about-me">
             <p>
